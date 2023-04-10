@@ -32,3 +32,10 @@ console.log(typeof myValue); // undefined
 myValue = true
 console.log(myValue);
 console.log(typeof myValue); // Boolean
+
+
+// js updated version has symbol type to declare datatype of own choice
+
+var mySymbol = Symbol("Will use in my own library");
+console.log(mySymbol)
+console.log(typeof mySymbol)
