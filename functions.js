@@ -45,5 +45,18 @@ function Area_const(length, breadth)
 var areaObj = new Area_const(9,8) //function as a class
 console.log("Area of rectangle " +areaObj.rectangleArea())
 
+//5. Nested Functions : When one function executed inside other fuction
 
+function A(params)
+{
+    var a = "A"
+    function B(params)
+    {
+        
+        function C(params)
+        {
+            var c= "C"
+        }
+    }
+}
 
